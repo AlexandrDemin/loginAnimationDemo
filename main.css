@@ -153,7 +153,7 @@ input:focus, input:hover {
 	top: 10px;
 	background-size: contain;
 	opacity: 0.8;
-	background: url('Reset_icon.svg') no-repeat 50% 50%;
+	background: url('reset_icon.svg') no-repeat 50% 50%;
 	background-size: contain;
 	cursor: pointer;
 	transition: 0.2s;
