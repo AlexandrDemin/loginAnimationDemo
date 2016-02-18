@@ -9,42 +9,38 @@
 	<script type="text/javascript" src="main.js"></script>
 </head>
 <body class="blue">
-<div class="container">
-	<h1 class="logo">LOGO</h1>
-	<form class="login">
-		<input type="email" placeholder="Email" class="email blue form-control"></input>
-		<input type="password" placeholder="Password" class="password blue recover form-control"></input>
-		<button type="button" class="big blue">Login</button>
-		<div class="oauth">
-			<p>or login with</p>
-			<div class="row">
-				<a class="col-3" href="">facebook</a>
-				<a class="col-3" href="">twitter</a>
-				<a class="col-3" href="">google</a>
+	<div class="container">
+		<h1 class="logo">LOGO</h1>
+		<form class="login">
+			<div class="email form-control"><input type="email" placeholder="Email" class="email blue"></div>
+			<div class="password recover form-control"><input type="password" placeholder="Password" class="blue"></div>
+			<button type="button" class="big blue">Login</button>
+			<div class="oauth">
+				<p>or login with</p>
+				<div class="oauth-links">
+					<a class="col-3" href="">facebook</a> 
+					<a class="col-3" href="">twitter</a> 
+					<a class="col-3" href="">google</a>
+				</div>
+				<p>or</p>
+				<button type="button" class="small blue">Register</button>
 			</div>
-		</div>
-		<div class="or">
-			<p>or</p>
-			<button type="button" class="small blue">Register</button>
-		</div>
-	</form>
-	<form class="register" style="display:none">
-		<input type="email" placeholder="Email" class="email orange form-control"></input>
-		<input type="password" placeholder="Password" class="password orange form-control"></input>
-		<button type="button">Register</button>
-		<div class="oauth">
-			<p>or register with</p>
-			<div class="row">
-				<a class="col-3" href="">facebook</a>
-				<a class="col-3" href="">twitter</a>
-				<a class="col-3" href="">google</a>
+		</form>
+		<form class="register" style="display:none">
+			<div class="email form-control"><input type="email" placeholder="Email" class="email blue"></div>
+			<div class="password form-control"><input type="password" placeholder="Password" class="blue"></div>
+			<button type="button" class="big orange">Register</button>
+			<div class="oauth">
+				<p>or register with</p>
+				<div class="oauth-links">
+					<a class="col-3" href="">facebook</a> 
+					<a class="col-3" href="">twitter</a> 
+					<a class="col-3" href="">google</a>
+				</div>
+				<p>or</p>
+				<button type="button" class="small orange">Login</button>
 			</div>
-		</div>
-		<div class="or">
-			<p>or</p>
-			<button type="button" class="small orange">Login</button>
-		</div>
-	</form>
-</div>
+		</form>
+	</div>
 </body>
 </html>
